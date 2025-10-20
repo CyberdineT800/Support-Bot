@@ -1,0 +1,18 @@
+{
+    "offer": {
+        "daily": 0,
+        "weekly": 0,
+        "monthly": 0,
+        "yearly": 0,
+        "total": 0,
+        "last_update": "2025-10-10"
+    },
+    "problem": {
+        "daily": 2,
+        "weekly": 2,
+        "monthly": 7,
+        "yearly": 7,
+        "total": 7,
+        "last_update": "2025-10-20"
+    }
+}
